@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+     --heading-color:#2b3442;
+     --about-color:#f6f8ff;
+     --search-color:#0079ff;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 30px;
+    color: var(--heading-color);
+}
+.heading button{
+    align-self: center;
+    font-weight: 500px;
+    font-size: 1rem;
+    background:transparent ;
+    border: none;
+}
+.heading img{
+    margin-left: 5px;
+}
+.search-container{
+    position: relative;
+    width: 40%;
+background: transparent;    
+justify-content: space-between;
+display: flex;
+align-items: center;
+align-self: center;
+padding: 8px;
+border-radius: 20px;
+box-shadow:7px 6px 12px 8px  rgba(194, 225, 231, 0.525);
+
+
+}
+.searchinput{
+    border: none;
+height:35px;
+width: 460px;
+font-size: 1rem;
+background: transparent;
+position: absolute;
+margin-left: 10px;
+margin-bottom: 30px;
+}
+.searchinput::placeholder{
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 40px;
+}
+.search{
+   background-color: var(--search-color);
+   border: none;
+   color: white;
+   font-size: 1rem;
+   font-weight: 600;
+   padding: 15px;
+   margin-left: 5px;
+   margin-right: 5px;
+   border-radius: 4px;
+}
+
+.user-info-container{
+    display: flex;
+    background: transparent;
+    background-color: white;
+    width: 40%;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 50%;    
+    box-shadow:7px 6px 12px 8px  rgba(194, 225, 231, 0.525);
+}
+#photo{
+    width: 30%;
+    margin: 20px;
+}
+ .image{
+    border-radius: 100%;
+    width: 100x;
+    height: 100px;
+}
+.name{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.about{
+    color: rgb(105, 103, 103);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.foll{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.card{
+    margin: 10px;
+    font-size: large;
+    font-weight: 800;
+}
